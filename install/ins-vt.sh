@@ -18,7 +18,7 @@ date
 mkdir -p /etc/trojan/
 touch /etc/trojan/akun.conf
 # install v2ray
-wget https://raw.githubusercontent.com/syapik96/script/main/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/asheeka/script/main/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
 mkdir /root/.acme.sh
@@ -506,7 +506,7 @@ systemctl enable trojan
 
 echo -e "\e[1;32m  Creating V2ray Menu scripts..\e[0m"
 sleep 2
-GitUser="syapik96"
+GitUser="asheeka"
 # Download Script
 cd /usr/local/sbin
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
