@@ -55,7 +55,7 @@ echo "   - Badvpn                   : 7100, 7200, 7300"  | tee -a log-install.tx
 echo "   - Nginx                    : 81"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Kuala_Lumpur (GMT +8)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
@@ -64,7 +64,7 @@ echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Autoreboot On 00.00 GMT +8" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------------------------------Mod by Prince96------------------------------------------" | tee -a log-install.txt
+echo "------------------------------------------Mod by Asheeka------------------------------------------" | tee -a log-install.txt
 echo "Installation Success"
 echo " Reboot in 5 Sec"
 sleep 5
