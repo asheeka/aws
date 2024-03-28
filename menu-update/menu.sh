@@ -65,7 +65,7 @@ echo -e  "  ║ " | lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║               Exit Panel Just Press Enter                  ║" | lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
-echo -e  "  ║           🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰           ║" | lolcat
+echo -e  "  ║               🔰 COPYRIGHT © 2024 ASHEEKA 🔰               ║" | lolcat
 echo -e  "  ║                  POWERED BY PRINCENEWBIE                   ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;31m"

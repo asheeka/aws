@@ -25,7 +25,7 @@ echo -e  " $bl ║\e[m$bd 9$bl]\e[m$bd Cek Users Who Do Multi Login SSH"
 echo -e  " $bl ║"| lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║            0 ) Main Menu      x ) Exit                     ║" | lolcat
-echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY PRINCENEWBIE.       ║" | lolcat
+echo -e  "  ║                       POWERED BY ASHEEKA.                  ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "            Please Input Number :  " ssh1

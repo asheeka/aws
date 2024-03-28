@@ -1,4 +1,4 @@
-<h2 align="center">AutoScript Install SSH & OpenVPN & V2rayXray & SSR & Trojan & WireGuard For VPS By PrinceNewbie <img src="https://img.shields.io/badge/Version-2.0.5-blue.svg"></h2>
+<h2 align="center">AutoScript Install SSH & OpenVPN & V2rayXray & SSR & Trojan & WireGuard For VPS By ASHEEKA <img src="https://img.shields.io/badge/Version-2.0.5-blue.svg"></h2>
 
 
 <h2 align="center">Supported Linux Distribution</h2>
@@ -20,13 +20,13 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
   ```
  <img src="https://img.shields.io/badge/Install All-VPN%20Batch-green"></img>
  ```html
- wget https://raw.githubusercontent.com/syapik96/aws/main/setup.sh 
+ wget https://raw.githubusercontent.com/asheeka/aws/main/setup.sh 
  chmod +x setup.sh 
  ./setup.sh
  ```
  <img src="https://img.shields.io/badge/Install%20Only-SSH%2FSSH%20SSL(Stunnel)%20SSH--WS%20Python%20BadVPN--UDPGW-green"></img>
  ```html
- wget https://raw.githubusercontent.com/syapik96/aws/main/install/sshonly.sh
+ wget https://raw.githubusercontent.com/asheeka/aws/main/install/sshonly.sh
  chmod +x sshonly.sh  
  ./sshonly.sh
  ```
@@ -44,7 +44,7 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 - Replace all this with your own acc name :
 
 ```diff
-- GitUser="syapik96"
+- GitUser="asheeka"
 ```
 	    
 - if there is an error not skilled to fix.(hope pull issue).
@@ -87,9 +87,9 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 ## Credit :
   
 -   Original Script by  Horas , SL
--   Modded and update Script by t.me/PrinceNewbie
+-   Modded and update Script by ASHEEKA
 	
 	
 	            
 	
-	<p align="center"><img src="https://img.shields.io/badge/%20COPYRIGHT%20%C2%A9%202022-%20By%20PrinceNewbie%20VPN%2C%20Inc-blue"></p>
+	<p align="center"><img src="https://img.shields.io/badge/%20COPYRIGHT%20%C2%A9%202022-%20By%20ASHEEKA%20VPN%2C%20Inc-blue"></p>

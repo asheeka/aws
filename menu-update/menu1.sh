@@ -30,7 +30,7 @@ IPVPS=$(curl -s ipinfo.io/ip )
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║                ┃ ONEPIECEVPN - PROJECT ┃                   ║" |lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╝" | lolcat
-echo -e  " $bl ║             Panel Created by PrinceNewBie" | lolcat
+echo -e  " $bl ║             Panel Created by ASHEEKA" | lolcat
 echo -e  " $bl ║"
 echo -e  " $bl ║ \e[032;1mCPU Model:\e[0m$bd $cname  "
 echo -e  " $bl ║ \e[032;1mNumber Of Cores:\e[0m$bd $cores"
@@ -78,7 +78,7 @@ echo -e  " $bl ║\e[m$bd 20$bl]\e[m$bd Change Banner"  | lolcat
 echo -e  " $bl ║"                              
 echo -e  "  ╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e  "  ║   0) Exit Menu .                                           ║\e[m" | lolcat
-echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY PRINCENEWBIE.       ║\e[m" | lolcat
+echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY ASHEEKA     .       ║\e[m" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e  ""
 read -p  "     Please select an option :  " menu

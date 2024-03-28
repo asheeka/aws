@@ -31,7 +31,7 @@ echo -e  " $bl ║\e[m$bd 14$bl]\e[m$bd  Update" | lolcat
 echo -e  " $bl ║\e[m" | lolcat  
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║            0 ) Main Menu      x ) Exit                     ║" | lolcat
-echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY PRINCENEWBIE.       ║" | lolcat
+echo -e  "  ║                    POWERED BY ASHEEKA.                     ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;31m"
 read -p  "       Please select an option :  " system

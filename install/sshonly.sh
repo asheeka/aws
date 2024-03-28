@@ -1,5 +1,5 @@
 #!/bin/bash
-#GitUser="syapik96"
+#GitUser="asheeka"
 #wget https://github.com/${GitUser}/
 
 red='\e[1;31m'
@@ -40,7 +40,7 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Script Mod Prince96-===========================" | tee -a log-install.txt
+echo "=================================-Script Mod ASHEEKA-=============================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt

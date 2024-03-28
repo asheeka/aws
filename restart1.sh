@@ -26,8 +26,7 @@ echo -e "     $bl[\e[m$bd 9$bl]\e[m$bd Restart Websocket Python"
 echo -e "     $bl[\e[m$bd x$bl]\e[m$bd Exit"
 echo -e ""
 echo -e  "  ╔════════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║           Copyright © 2022 by Github.com/syapik96          ║" | lolcat
-echo -e  "  ║            🔰Auto-Script is Powered by PRINCE.🔰           ║" | lolcat
+echo -e  "  ║           🔰Auto-Script is Powered by ASHEEKA.🔰           ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 read -p "    Select From Options [1-9 or x] :  " Restart
@@ -64,8 +63,6 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
-                echo -e ""
                 echo -e "         All Service Restarted        "
                 echo -e ""
                 echo -e "======================================"| lolcat
@@ -78,8 +75,6 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
-                echo -e ""
                 echo -e "         SSH Service Restarted        "
                 echo -e ""
                 echo -e "======================================"| lolcat
@@ -90,8 +85,6 @@ case $Restart in
                 /etc/init.d/dropbear restart
                 echo -e ""
                 echo -e "======================================"| lolcat
-                echo -e ""
-                echo -e "         Script Mod by syapik96           "
                 echo -e ""
                 echo -e "       Dropbear Service Restarted     "
                 echo -e ""
@@ -104,8 +97,6 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "          Script Mod by syapik96           "
-                echo -e ""
                 echo -e "        Stunnel4 Service Restarted    "
                 echo -e ""
                 echo -e "======================================"| lolcat
@@ -116,8 +107,6 @@ case $Restart in
                 /etc/init.d/openvpn restart
                 echo -e ""
                 echo -e "======================================"| lolcat
-                echo -e ""
-                echo -e "        Script Mod by syapik96           "
                 echo -e ""
                 echo -e "       OpenVPN Service Restarted      "
                 echo -e ""
@@ -130,8 +119,6 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
-                echo -e ""
                 echo -e "        Squid Service Restarted      "
                 echo -e ""
                 echo -e "======================================"| lolcat
@@ -142,8 +129,6 @@ case $Restart in
                 /etc/init.d/nginx restart
                 echo -e ""
                 echo -e "======================================"| lolcat
-                echo -e ""
-                echo -e "         Script Mod by syapik96           "
                 echo -e ""
                 echo -e "         Nginx Service Restarted      "
                 echo -e ""
@@ -163,8 +148,6 @@ case $Restart in
                 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7900 --max-clients 500
                 echo -e ""
                 echo -e "======================================"| lolcat
-                echo -e ""
-                echo -e "           Script Mod by syapik96           "
                 echo -e ""
                 echo -e "    Badvpn  Badvpn Service Restarted  "
                 echo -e ""
@@ -188,8 +171,6 @@ case $Restart in
                 systemctl restart ws-ovpn.service
                 echo -e ""
                 echo -e "======================================"| lolcat
-                echo -e ""
-                echo -e "       Script Mod by syapik96         "
                 echo -e ""
                 echo -e "     WS Python Service Restarted "
                 echo -e ""

@@ -10,24 +10,22 @@ DOMAIN=gilergames.tk
 echo "    Cloudflare with SNI Bug "
 echo "Enter your ISPbughost pointed VPS IP "
 read -rp " Enteer : " -e host
-SUB_DOMAIN=${sub}.gilergames.tk
+SUB_DOMAIN=${sub}.onedata.my.id
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
-ZONE=a4ec64a08c4e1c628ec4d86d198057ba
-RECORD=cf91f31ad3a694e6e893b5013bffa288
 if [[ "${#RECORD}" -le 10 ]]; then
-RECORD=$(curl -sLX POST "https://api.cloudflare.com/client/v4/zones/a4ec64a08c4e1c628ec4d86d198057ba/dns_records" \
+RECORD=$(curl -sLX POST "https://api.cloudflare.com/client/v4/zones/1281e4a960f86c00001b88f143e292ba/dns_records" \
      -H "Content-Type: application/json" \
-     -H "X-Auth-Email: zulhisyam421@gmail.com" \
-     -H "X-Auth-Key: 48e94b491ba3933abe8732b9a5f91cf3f3c3" \
-     --data '{"type":"A","name":"${sub}.gilergames.tk","content":"${IP}","ttl":120,"proxied":false}' | jq -r .result.id)
+     -H "X-Auth-Email: foreverwelearn@gmail.com" \
+     -H "X-Auth-Key: 1296c6be4d1fd676728ff11f720c3fb31b939" \
+     --data '{"type":"A","name":"${sub}.onedata.my.id","content":"${IP}","ttl":120,"proxied":false}' | jq -r .result.id)
 fi
-RESULT=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones/a4ec64a08c4e1c628ec4d86d198057ba/dns_records/${sub}.gilergames.tk" \
-     -H "X-Auth-Email: zulhisyam421@gmail.com" \
-     -H "X-Auth-Key: 48e94b491ba3933abe8732b9a5f91cf3f3c3" \
+RESULT=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones/1281e4a960f86c00001b88f143e292ba/dns_records/${sub}.onedata.my.id" \
+     -H "X-Auth-Email: foreverwelearn@gmail.com" \
+     -H "X-Auth-Key: 1296c6be4d1fd676728ff11f720c3fb31b939" \
      -H "Content-Type: application/json" \
-     --data '{"type":"A","name":"${sub}.gilergames.tk","content":"$IP","ttl":120,"proxied":false}')
+     --data '{"type":"A","name":"${sub}.onedata.my.id","content":"$IP","ttl":120,"proxied":false}')
 echo "IP=$SUB_DOMAIN" > /var/lib/premium-script/ipvps.txt
 echo $SUB_DOMAIN > /root/domain
 rm -f /root/cf.sh

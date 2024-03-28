@@ -76,5 +76,5 @@ echo "  Cara pakai : kill [nombor PID] " | lolcat
 echo " "
 echo "-------------------------------------"
 echo ""
-echo "    Mod updated by Prince" | lolcat
+echo "    Updated by Asheeka" | lolcat
 

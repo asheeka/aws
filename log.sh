@@ -1,5 +1,5 @@
 echo ""
-echo "============================-{ Autoscript By Prince }-=========================" | lolcat | tee -a log-install.txt
+echo "============================-{ Autoscript By Asheeka }-=========================" | lolcat | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | lolcat | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -30,19 +30,19 @@ echo "   - Trojan                  : 2087"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Singapore (GMT +8)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
 echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
 echo "   - IPv6                    : [OFF]" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Autoreboot On 00.05 GMT +8" | tee -a log-install.txt
+echo "   - Autoreboot On 00.05 GMT +7" | tee -a log-install.txt
 echo "   - Autobackup Data" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Auto Delete Expired Account" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "==========================-[ COPYRIGHT © 2022 ]-===========================" | tee -a log-install.txt
-echo "===================-[ POWERED BY PRINCE`AKA`SYAPIK96 ]-====================" | tee -a log-install.txt
+echo "==========================-[ COPYRIGHT © 2024 ]-===========================" | tee -a log-install.txt
+echo "=========================-[ POWERED BY ASHEEKA ]-==========================" | tee -a log-install.txt

@@ -10,7 +10,7 @@ echo "#######################################" | lolcat
 echo ""
 echo "  \e[1;32mEnter Your Email To Receive Message\e[0m"
 echo ""
-echo "########=[ POWERED BY PRINCE ]=########" | lolcat
+echo "########=[ POWERED BY ASHEEKA ]=########" | lolcat
 echo "\e[1;31"
 read -rp " Email: " -e email
 echo "\e[0m"

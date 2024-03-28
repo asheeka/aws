@@ -34,6 +34,6 @@ echo " $akun - $port"
 echo "$jum"; x=$(( "$x" + 1 ))
 echo -e "-------------------------------" | lolcat
 done
-echo -e "\e[1;32mPowered By Prince`aka`syapik96\e[0m"
+echo -e "\e[1;32mPowered By Asheeka\e[0m"
 
 

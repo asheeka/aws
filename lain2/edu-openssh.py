@@ -15,7 +15,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:40000'
-RESPONSE = 'HTTP/1.1 101 Openssh Switching Protocols\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 ASHEEKA Switching Protocols\r\n\r\n'
 # RESPONSE = 'HTTP/1.1 101 <i><u><font color="red">Openssh</font></u>\r\n\r\n'
 
 class Server(threading.Thread):

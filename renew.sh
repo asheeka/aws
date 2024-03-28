@@ -5,7 +5,7 @@ clear
 figlet -f slant "Renewing Account" | lolcat
 echo -e ""
 echo -e  "     ╔═════════════════════════════════════════════════╗" | lolcat
-echo -e  "     ║             Renew Regisetred User               ║" | lolcat
+echo -e  "     ║             Renew Registered User               ║" | lolcat
 echo -e  "     ╚═════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;32m"
 read -p "                Username       :  " User
@@ -34,7 +34,7 @@ echo -e "            \e[1;31mDays Added\e[0m    :  $Days Days"
 echo -e "            \e[1;32mExpires on\e[0m    :  $Expiration_Display"
 echo -e ""
 echo -e  "     ╔═════════════════════════════════════════════════╗" | lolcat
-echo -e  "     ║      🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰    ║" | lolcat
+echo -e  "     ║      🔰      COPYRIGHT © 2024 ASHEEKA     🔰    ║" | lolcat
 echo -e  "     ╚═════════════════════════════════════════════════╝" | lolcat
 else
  clear
@@ -49,7 +49,7 @@ else
  echo -e "              \e[1;31mUsername Doesn't Exist\e[0m"
  echo -e ""
  echo -e  "     ╔═════════════════════════════════════════════════╗" | lolcat
- echo -e  "     ║      🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰    ║" | lolcat
+ echo -e  "     ║      🔰      COPYRIGHT © 2024 ASHEEKA     🔰    ║" | lolcat
  echo -e  "     ╚═════════════════════════════════════════════════╝" | lolcat
 fi
 done
