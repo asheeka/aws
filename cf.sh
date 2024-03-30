@@ -5,7 +5,7 @@ NC='\e[0m'
 
 apt install jq curl -y
 IP=$(wget -qO- icanhazip.com)
-DOMAIN=gilergames.tk
+DOMAIN=onedata.my.id
 #sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 echo "    Cloudflare with SNI Bug "
 echo "Enter your ISPbughost pointed VPS IP "
